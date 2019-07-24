@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- *binary_tree_insert_right - insert right
+ *binary_tree_insert_right - insert right.
  *@parent: head
  *@value: string.
  *Return: new pointer.
