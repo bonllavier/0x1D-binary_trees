@@ -12,7 +12,11 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	if (node == NULL)
 	{
 		free(node);
-		return (0);
+		return (NULL);
+	}
+	if (parent == NULL)
+	{
+		return (NULL);
 	}
 	if (parent->left == NULL)
 	{
