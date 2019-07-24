@@ -2,7 +2,7 @@
 /**
  *binary_tree_leaves - depth
  *@tree: tree.
- *Return: number of leafs 
+ *Return: number of leafs
  */
 
 size_t binary_tree_leaves(const binary_tree_t *tree)
