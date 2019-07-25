@@ -2,7 +2,7 @@
 /**
  *binary_tree_is_full - is full
  *@tree: tree.
- *Return: nothing.
+ *Return: 0 - 1.
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
